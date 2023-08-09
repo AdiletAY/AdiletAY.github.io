@@ -26,4 +26,5 @@ main {
 footer {
     grid-column: span 14;
     height: 300px;
+    background-color: #f8f9fa;
 }
