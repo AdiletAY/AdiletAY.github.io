@@ -20,7 +20,7 @@ aside {
 }
 
 main {
-    grid-column: 4/14;
+    grid-column: 3/14;
 }
 
 footer {
@@ -32,6 +32,9 @@ footer {
 @media (max-width: 1500px) {
     aside {
         grid-column: 1/4;
-        background-color: #f4f4f5;
+    }
+
+    main {
+        grid-column: 4/14;
     }
 }
