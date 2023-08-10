@@ -5,12 +5,12 @@
 }
 
 .up-header {
-    grid-column: span 12;
+    grid-column: span 14;
     background-color: blue;
 }
 
 header {
-    grid-column: span 12;
+    grid-column: span 14;
     background-color: #fff;
 }
 
@@ -20,10 +20,21 @@ aside {
 }
 
 main {
-    grid-column: 3/12;
+    grid-column: 3/14;
 }
 
 footer {
-    grid-column: span 12;
+    grid-column: span 14;
     height: 300px;
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 1500px) {
+    aside {
+        grid-column: 1/4;
+    }
+
+    main {
+        grid-column: 4/14;
+    }
 }
